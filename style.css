@@ -1,0 +1,55 @@
+/* Importando as fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    background-color: #F9F6F0; /* Cor de pergaminho */
+    color: #2C2C2C; /* Texto cinza escuro legível */
+    font-family: 'Lora', serif; /* Fonte de leitura */
+    line-height: 1.6; /* Espaçamento confortável entre as linhas */
+    max-width: 800px; /* Evita que o texto fique muito largo na tela */
+    margin: 0 auto; /* Centraliza o site no meio da tela */
+    padding: 20px;
+}
+/* Estilizando os títulos */
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #1A365D; /* Azul marinho para dar contraste */
+    margin-top: 1.5em;
+}
+
+/* Interação com as imagens */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 20px auto; /* Centraliza as cartas */
+}
+
+img:hover {
+    transform: translateY(-5px) scale(1.03); /* A carta sobe e aumenta levemente */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Estilizando o menu sanfona (details/summary) */
+details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+summary {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #8B1E0F; /* Tom de vermelho escuro clássico */
+}
+
+summary:hover {
+    color: #1A365D;
+}
